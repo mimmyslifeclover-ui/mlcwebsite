@@ -1,7 +1,3 @@
 [build]
-  publish = "MLC web/mlcwebsite"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  base = ""
+  publish = "MLC web/mlcwebsite/"
